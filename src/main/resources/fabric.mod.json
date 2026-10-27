@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "hitbox_visual",
+  "version": "${version}",
+  "name": "Hitbox Visual",
+  "description": "Hitbox falsa visual, roja en alcance.",
+  "authors": ["z_Kyron"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.zkyron.hitboxvisual.HitboxVisualClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
